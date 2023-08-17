@@ -1,0 +1,66 @@
+{
+    "purchases":[
+        {
+            "userID":123,
+            "status":3,
+            "name":"501-1|1|6021",
+            "ticketType":1,
+            "fixed":"s",
+            "registrationDate":"",
+            "contractDate":"2023-07-30",
+            "contractType":"",
+            "operationType":"venda",
+            "product":"123456idagroboard",
+            "havest":"SOJA 2022/2023",
+            "subsidiary":"Nome da filial",
+            "clienteName":"Nome do cliente",
+            "logisticsType":1,
+            "deliveryStartDate":"2023-08-01",
+            "deliveryEndDate":"2023-08-31",
+            "quantity":40000,
+            "value":80000,
+            "unity":1,
+            "currency":"BRL",
+            "counterparty":"Nome da contraparte",
+            "contractTypeErpCod":"1",
+            "productErpCod":"123456789",
+            "subsidiaryErpCod":"1105",
+            "clientErpCod":"1030",
+            "logisticsTypeId":1
+        }
+    ],
+    "sales":[
+        {
+            "userID":123,
+            "status":3,
+            "name":"501-1|1|6021",
+            "ticketType":1,
+            "fixed":"s",
+            "registrationDate":"",
+            "counterpartyDocument":"",
+            "contractDate":"2023-07-30",
+            "contractType":"",
+            "operationType":"venda",
+            "product":"123456idagroboard",
+            "subsidiary":"Nome da filial",
+            "clienteName":"Nome do cliente",
+            "logisticsType":1,
+            "deliveryStartDate":"2023-08-01",
+            "deliveryEndDate":"2023-08-31",
+            "quantity":40000,
+            "value":80000,
+            "unity":1,
+            "currency":"BRL",
+            "contractStatus":"",
+            "counterparty":"Nome da contraparte",
+            "contractTypeErpCod":"1",
+            "productErpCod":"123456789",
+            "subsidiaryErpCod":"1105",
+            "clientErpCod":"1030",
+            "logisticsTypeId":1
+        }
+    ],
+    "actions":[
+
+    ]
+}
