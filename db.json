@@ -62,5 +62,114 @@
     ],
     "actions":[
 
+    ],
+    "agroboard_examples":[
+        {
+            "ID": "128291",
+            "actions_adicionado_manualmente_lf":[
+                {
+                    "ID": "128291",
+                    "operationTypeID": "3",
+                    "actionParameters": "{\"params\": {\"data\": \"21/08/2024\", \"moeda\": \"Real\", \"observacao\": \"\", \"valor_saca\": \"\", \"valor_total\": \"\", \"volume_washout\": \"12500\"}, \"ope_cod\": \"128291\", \"toa_cod\": \"3\"}",
+                    "actionDate": "2023-08-21 17:23:22"
+                }
+            ],
+            "userID": "249",
+            "status": "3",
+            "name": "128291 | Mercado Interno | Compra | Milho | 01/01/2024 - 30/06/2024 | 12500kg | PAULO M | 50,00 R$/bag",
+            "ticketType": "1",
+            "operationType": "Compra",
+            "fixed": "s",
+            "fasten": "0",
+            "approvedDate": "2023-08-21 17:19:14",
+            "registrationDate": "2023-08-21 17:19:14",
+            "soldout": [],
+            "invoice": {
+                "boleta": {
+                    "volume_liquido": "12500",
+                    "volume_boletado": "12500"
+                },
+                "lancamentos": []
+            },
+            "contractDate": "2023-08-21 00:00:00",
+            "contractType": "Compra preço Fixo ",
+            "contractTypeErpCod": "01-01",
+            "product": "Milho",
+            "productErpCod": "01002000100",
+            "harvest": "MILHO 2024/2024",
+            "subsidiary": "2905 - UM",
+            "subsidiaryErpCod": "2905",
+            "clientName": "PAULO M",
+            "updateDateTime": "2023-08-21 17:23:22",
+            "logisticsType": "CIF",
+            "logisticsTypeId": "1",
+            "deliveryStartDate": "2024-01-01 00:00:00",
+            "deliveryEndDate": "2024-06-30 00:00:00",
+            "quantity": "12500",
+            "value": "50.0000",
+            "unity": "Saco",
+            "currency": "Real",
+            "contractStatus": "<span class=\"badge badge-danger\">Não Gerado</span>",
+            "volumeToInvoice": "12500",
+            "parentOperationCode": "128290",
+            "erpStatus": "<span class=\"badge badge-success\">Lançado</span>",
+            "counterparty": "PAULO M"
+        },
+        {
+            "ID": "128290",
+            "actions_adicionado_manualmente_lf":[
+                {
+                    "ID": "128290",
+                    "operationTypeID": "20",
+                    "actionParameters": "{\"params\": {\"data\": \"21/08/2023\", \"tipo\": \"under\", \"moeda\": \"1\", \"valor\": \"\", \"volume\": \"50000\", \"observacao\": \"\", \"volume_boleta\": \"100.000,0000\"}, \"ope_cod\": \"128290\", \"toa_cod\": \"20\"}",
+                    "actionDate": "2023-08-21 17:15:38"
+                },
+                {
+                    "ID": "128290",
+                    "operationTypeID": "20",
+                    "actionParameters": "{\"params\": {\"data\": \"21/08/2023\", \"tipo\": \"over\", \"moeda\": \"1\", \"valor\": \"\", \"volume\": \"25000\", \"observacao\": \"\", \"volume_boleta\": \"50.000,0000\"}, \"ope_cod\": \"128290\", \"toa_cod\": \"20\"}",
+                    "actionDate": "2023-08-21 17:17:15"
+                }
+            ],
+            "userID": "249",
+            "status": "3",
+            "name": "128290 | Mercado Interno | Compra | Milho | 01/01/2024 - 30/06/2024 | 100000kg | PAULO M | 50,00 R$/bag",
+            "ticketType": "1",
+            "operationType": "Compra",
+            "fixed": "s",
+            "fasten": "0",
+            "approvedDate": "2023-08-21 17:13:47",
+            "registrationDate": "2023-08-21 17:13:45",
+            "soldout": [],
+            "invoice": {
+                "boleta": {
+                    "volume_liquido": 87500,
+                    "volume_boletado": "100000"
+                },
+                "lancamentos": []
+            },
+            "contractDate": "2023-08-21 00:00:00",
+            "contractType": "Compra preço Fixo ",
+            "contractTypeErpCod": "01-01",
+            "product": "Milho",
+            "productErpCod": "01002000100",
+            "harvest": "MILHO 2024/2024",
+            "subsidiary": "2905 - UM",
+            "subsidiaryErpCod": "2905",
+            "clientName": "PAULO M",
+            "updateDateTime": "2023-08-21 17:19:14",
+            "logisticsType": "CIF",
+            "logisticsTypeId": "1",
+            "deliveryStartDate": "2024-01-01 00:00:00",
+            "deliveryEndDate": "2024-06-30 00:00:00",
+            "quantity": "87500",
+            "value": "50.0000",
+            "unity": "Saco",
+            "currency": "Real",
+            "contractStatus": "<span class=\"badge badge-danger\">Não Gerado</span>",
+            "volumeToInvoice": 87500,
+            "erpStatus": "<span class=\"badge badge-success\">Lançado</span>",
+            "counterparty": "PAULO M"
+        }
     ]
 }
